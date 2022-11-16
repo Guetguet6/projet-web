@@ -1,0 +1,75 @@
+/*Diapo Images*/
+.slide {
+    float: left;
+    width: 90vw;
+}
+
+.slides {
+    width: calc(90vw *4);
+    animation: glise 50s infinite
+}
+
+.slider {
+    width: 90vw;
+    overflow: hidden;
+    display: block;
+    height: 90vh;
+    margin: auto;
+}
+
+@keyframes glise {
+    0% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-90vw);
+    }
+    66% {
+        transform: translateX(-180vw);
+    }
+    100% {
+        transform: translateX(-270vw);
+    }
+}
+/*Fin*/
+
+
+.topactlieu {
+    font-size: 10rem;
+}
+
+.toplieucast ul{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    column-gap: 5vw;
+    text-align: center;
+    margin: 1em auto;
+}
+
+.toplieucast {
+    display: grid;
+    text-align: center;
+}
+
+main div:nth-child(3){
+    margin-top:3em;
+    margin-bottom: 3em;
+}
+
+main>div div:nth-child(2){
+    width: 100vh;
+    transform: translate(30vw,-30vh);
+    color: white;
+}
+
+
+.img_act_lieu {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.txt_act_lieu {
+    font-weight: 600;
+    font-size: 1.5rem;
+}

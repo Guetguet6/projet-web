@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/menu_del.css">
+    <link rel="stylesheet" href="../styles/main.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
+    <title>New Life - Contact</title>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="iconify menu_nav menu" data-icon="icon-park-outline:hamburger-button"></span>
+            <a href="./index.html"><img src="../images/dessi2.png" alt="Logo"></a>
+        </div>
+
+        <nav>
+            <ul class="navi_flex">
+                <li><a href="#">Localisation</a></li>
+                <li><a href="./activites.html">Activités</a></li>
+                <li><a href="#">Confection</a></li>
+            </ul>
+        </nav>
+
+        <ul id="menu_icons" class="navi_flex">
+            <li>
+                <span class="iconify menu_nav search" data-icon="ant-design:search-outlined"></span>
+                <input type="search" name="searching" id="search">
+            </li>
+
+            <li id="menu_language">
+                <span class="iconify menu_nav bouton" data-icon="codicon:globe"></span>
+                <div id="truc_muche">
+                    <div>
+                        <a href="#">
+                            <span class="iconify-inline menu_nav" data-icon="twemoji:flag-for-flag-france"></span>
+                            <p>France</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span class="iconify-inline menu_nav" data-icon="twemoji:flag-for-flag-united-states"></span>
+                            English
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#"><span class="iconify menu_nav" data-icon="carbon:shopping-cart" ></span></a></li>
+            <li><a href="#"><span class="iconify menu_nav" data-icon="carbon:user-avatar" ></span></a></li>
+        </ul>
+    </header>
+
+
+    <main>
+        <div id="formulaire">
+            <h3>Formulaire de Contact</h3>
+            <p>Les champs comportant <span>*</span> sont obligatoire</p>
+            <form action="" method="post" >
+                <div>
+                    <label for="lname">Nom *</label>
+                    <input type="text" name="name" id="lname" required>
+                </div>
+                <div>
+                    <label for="fname">Prénom *</label>
+                    <input type="text" name="surname" id="fname" required>
+                </div>
+                <div>
+                    <label for="mail">Adresse Email *</label>
+                    <input type="email" name="email" id="mail" required>
+                </div>
+                <div>
+                    <label for="subject">Sujet *</label>
+                    <input type="text" name="subject" id="subject" required>
+                </div>
+                <div>
+                    <label for="message">Message *</label>
+                    <textarea name="message" id="message" cols="10" rows="10" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </div>
+        <aside>
+            <div>
+                <h3>Par email</h3>
+                <a href="mailto:contact@newlife.fr">contact@newlife.fr</a>
+            </div>
+        </aside>
+    </main>
+
+
+    <footer>
+        <div>
+            <h3>Information Légales</h3>
+            <ul>
+                <li><a href="#">Conditions Générales de Vente</a></li>
+                <li><a href="#">Données Personnelles</a></li>
+                <li><a href="./credit_photo.html">Crédit Photos</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Notre Entreprise</h3>
+            <ul>
+                <li><a href="#">Qui sommes nous</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="./contact.html">Nous Contacter</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        <div id="reseaux">
+            <h3>Réseaux Sociaux</h3>
+            <aside>
+                <a href="#"><span class="iconify rs" data-icon="iconoir:facebook"></span></a>
+                <a href="#"><span class="iconify rs" data-icon="iconoir:instagram"></span></a>
+                <a href="#"><span class="iconify rs" data-icon="iconoir:twitter"></span></a>
+            </aside>
+        </div>
+        <div>
+            <p>2021-2022 New Life</p>
+        </div>
+    </footer>
+</body>
+</html>

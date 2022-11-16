@@ -1,0 +1,46 @@
+#formulaire>form div {
+    display: grid;
+    margin-bottom: 1em;
+    grid-template-columns: 20vw auto;
+    padding-bottom : 2vh;
+
+}
+
+#formulaire>form {
+    width: 60vw;
+    margin: auto;
+}
+
+#formulaire>form div input,textarea {
+    border: 5px solid #8295C4;
+    border-radius: 13px;
+    padding: 15px;
+}
+
+#formulaire> form div label {
+    margin: auto 1em;
+}
+
+main {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    font-size: larger;
+}
+
+form div label>span {
+    padding-left: 1em;
+}
+
+aside {
+    padding-right: 15vh;
+}
+
+aside>div a {
+    color: #546DF5;
+    font-weight: 900;
+    text-decoration: underline;
+}

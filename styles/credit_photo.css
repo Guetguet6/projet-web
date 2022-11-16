@@ -1,0 +1,37 @@
+#decoupe img {
+    max-height: 25vh;
+}
+
+#decoupe p {
+    margin-top: 5px;
+}
+
+#decoupe p a {
+    color: blue;
+}
+
+#decoupe p span,a {
+    font-weight: bold;
+}
+
+#decoupe{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+
+#decoupe .iconify {
+    font-size: 5vh;
+}
+
+#logos {
+    display: grid;
+    grid-template-columns: repeat(5,4vw);
+    gap: 20px;
+}
+
+#logos p {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
